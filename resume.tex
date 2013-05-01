@@ -1,0 +1,144 @@
+\documentclass[margin,line]{res}
+
+\oddsidemargin -.5in
+\evensidemargin -.5in
+\textwidth=6.0in
+\itemsep=0in
+\parsep=0in
+
+\newenvironment{list1}{
+  \begin{list}{\ding{113}}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in}
+      \setlength{\leftmargin}{0.17in}}}{\end{list}}
+\newenvironment{list2}{
+  \begin{list}{$\bullet$}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in}
+      \setlength{\leftmargin}{0.2in}}}{\end{list}}
+
+\usepackage{hyperref}
+
+\pagestyle{plain}
+\setcounter{page}{1}
+\pagenumbering{arabic}
+
+\begin{document}
+
+\name{Lijie Ren \vspace*{.1in}}
+
+\begin{resume}
+\section{\sc Contact Information}
+\vspace{.05in}
+\begin{tabular}{@{}p{2in}p{4in}}
+6520 Cervantes Rd. Apt. 24       & lijie.cs@gmail.com \\
+Isla Vista, CA 93117             & (1)-805-886-3519 \\
+\end{tabular}
+
+
+\section{\sc Programming Languages}
+Extensive programming experiences with C/C++, Java, Python, Matlab. \\
+Familiar with Ruby, HTML, CSS, PHP, JavaScript, etc.
+
+
+\section{\sc Education}
+{\bf University of California, Santa Barbara}, CA, USA\\
+\vspace*{-.1in}
+\begin{list1}
+\item[] M.S., Computer Science (expected
+  graduation date: Jun. 2012)
+\begin{list2}
+\vspace*{.05in}
+\item GPA:  4.0/4.0
+\end{list2}
+\end{list1}
+
+{\bf Shanghai Jiao Tong University}, Shanghai, China\\
+\vspace*{-.1in}
+\begin{list1}
+\item[] B.E., Electrical Engineering,  Jun. 2009
+\begin{list2}
+\vspace*{.05in}
+\item GPA:  3.5/4.0
+\end{list2}
+\end{list1}
+
+
+\section{\sc Work Experiences}
+{Google}, Tokyo, Japan\\
+{\bf{\em Software Engineer Intern}} \hfill {\bf Jul. 2011 - Sep. 2011}\\
+I worked in a project aiming to facilitate people's daily commuting. I significantly optimized the core algorithm used in the back-end and made major contributions to the design and implementation of two front-end Android applications.
+
+\section{\sc Spare-Time Projects}
+{\bf{\em LifeTrack}}  \hfill {\bf Dec. 2011 - Present}\\
+An Android application that automatically generate a ``location diary'' of the user with super low power usage and an intuitive map view.
+
+\section{\sc Research Projects}
+{University of California, Santa Barbara}, CA, USA
+
+\vspace{-.1cm}
+{\bf{\em Next Generation ``Google Directions''}}  \hfill {\bf Oct. 2011 - Present}\\
+I designed a new direction-query system which takes other users' queries into consideration in order to return more dynamic and accurate lowest-cost routes.
+
+
+{\bf{\em Time-Dependent Shortest Paths}}  \hfill {\bf Jan. 2011 - Present}\\
+I did scalable implementations of shortest-path algorithms on static and time-dependent graphs, using Combinatorial BLAS Library, a high performance parallel matrix-operation library in development at UCSB and several other organizations. Evaluations showed that the achieved performances were comparable to those observed in Google's Pregel System.
+
+
+{\bf{\em Visibility-based Pursuit-Evasion Problem}}  \hfill {\bf Mar. 2011 - May. 2011}\\
+I proved a lower bound of the number of robots needed to capture an evader with the same speed in any polygonal environment, possibly with holes.
+
+
+%\vspace{-.1cm}
+{\bf{\em Business Analytics on Social Networks}}  \hfill {\bf Aug. 2010 - Feb. 2011}\\
+I optimized an algorithm that clusters people on social networks who make certain purchases. The optimization boosted the performance by 100\%.
+
+%\vspace{-.1cm}
+{\bf{\em Cloud Computing}}  \hfill {\bf Mar. 2010 - Aug. 2010}\\
+I integrated Google App Engine's database backup/restore tool, BulkLoader, to Appscale, an open-source cloud computing platform in development at UCSB.
+
+%\vspace{-.1cm}
+{\bf{\em Graph Mining}}  \hfill {\bf Jan. 2010 - Mar. 2010}\\
+I improved the famous graph mining algorithm, gSpan, to efficiently mine frequent graph patterns containing wildcard label *.
+
+{Shanghai Jiao Tong University}, Shanghai, China
+
+\vspace{-.3cm}
+{\bf{\em Quantum Information Processing}} \hfill {\bf Sep .2007 - Jun. 2009}\\
+I presented a mathematical framework for quantum teleportation on quantum graph states, which can be used for designing quantum entanglement states to transport quantum information, or for evaluating such capability of a given entanglement.
+\vspace*{.05in}
+\begin{list2}
+\item Lijie Ren, Guangqiang He, Guihua Zeng: Universal Teleportation via Continuous-Variable Graph States. Physical Review A. (2008) 78, 042302.
+\end{list2}
+
+%\newpage
+\section{\sc Teaching Experience}
+{University of California, Santa Barbara}, CA, USA
+
+\vspace{-.3cm}
+{\bf {\em Teaching Assistant}} \hfill {\bf Sep. 2009  - present}\\
+Duties at various times have included office hours and leading weekly discussion sections.
+\vspace*{.05in}
+\begin{list2}
+\item {CS 263 Modern Programming Languages and Their
+Implementations} \hfill {Winter 2011}\\
+A graduate level course discussing the key implementation concepts in Java, Python, and C++.
+
+\item {CS 231 Combinatorial Algorithms Topics} \hfill {Fall 2010}\\
+A graduate level course discussing advanced combinatorial algorithms.
+
+\item {CS 130B Data Structure and Algorithm II} \hfill {Winter 2010 \& Spring 2011}\\
+An upper division course discussing classic algorithms.
+
+\item {CS 40 Fundamental Computer Science} \hfill {Fall 2009 \& Spring 2010}\\
+A lower division course about discrete mathematics.
+\end{list2}
+
+\section{\sc More \\About Me}
+I am a pianist and an amateur photographer.\\
+I am fluent in English and Mandarin. I am currently learning Japanese.
+
+\end{resume}
+\end{document}

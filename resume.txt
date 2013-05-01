@@ -1,0 +1,87 @@
+Lijie Ren
+
+6520 Cervantes Rd. Apt. 24
+Isla Vista, CA 93117
+
+lijie.cs@gmail.com
+(805) 886-3519
+
+
+Programming Languages
+Extensive programming experiences with C/C++, Java, Python.
+Familiar with Ruby, HTML, CSS, PHP, JavaScript, etc.
+
+
+Education
+University of California, Santa Barbara, CA, USA
+M.S., Computer Science (expected graduation date: Jun. 2012)
+GPA: 4.0/4.0
+
+Shanghai Jiao Tong University, Shanghai, China
+B.E., Electrical Engineering, Jun. 2009
+GPA:  3.5/4.0
+
+
+Work Experiences
+Google, Tokyo, Japan
+Software Engineer Intern
+Jul. 2011 - Sep. 2011
+I worked in a project aiming to facilitate people's daily commuting. I significantly optimized the core algorithm used in the back-end and made major contributions to the design and implementation of two front-end Android applications.
+
+
+Research Projects
+Next Generation "Google Directions"
+Oct. 2011 - Present
+I designed a new direction-query system which takes other users' queries into consideration in order to return more dynamic and accurate lowest-cost routes.
+
+
+Time-Dependent Shortest Paths
+Jan. 2011 - Present
+I did scalable implementations of shortest-path algorithms on static and time-dependent graphs, using Combinatorial BLAS Library, a high performance parallel matrix-operation library in development at UCSB and several other organizations. Evaluations showed that the achieved performances were comparable to those observed in Google's Pregel System.
+
+
+Visibility-based Pursuit-Evasion Problem
+Mar. 2011 - May. 2011
+I proved a lower bound of the number of robots needed to capture an evader with the same speed in any polygonal environment, possibly with holes.
+
+
+Business Analytics on Social Networks
+Aug. 2010 - Feb. 2011
+I optimized an algorithm that clusters people on social networks who make certain purchases. The optimization boosted the performance by 100%.
+
+Cloud Computing
+Mar. 2010 - Aug. 2010
+I integrated Google App Engine's database backup/restore tool, BulkLoader, to Appscale, an open-source cloud computing platform in development at UCSB.
+
+Graph Mining
+Jan. 2010 - Mar. 2010
+I improved the famous graph mining algorithm, gSpan, to efficiently mine frequent graph patterns containing wildcard label *.
+
+
+Quantum Information Processing
+Sep .2007 - Jun. 2009
+I presented a mathematical framework for quantum teleportation on quantum graph states, which can be used for designing quantum entanglement states to transport quantum information, or for evaluating such capability of a given entanglement.
+Publication: Lijie Ren, Guangqiang He, Guihua Zeng: Universal Teleportation via Continuous-Variable Graph States. Physical Review A. (2008) 78, 042302.
+
+
+Teaching Experience
+Teaching Assistant
+Sep. 2009  - present
+Duties at various times have included office hours and leading weekly discussion sections.
+
+CS 263 Modern Programming Languages and Their Implementations
+A graduate level course discussing the key implementation concepts in Java, Python, and C++.
+
+CS 231 Combinatorial Algorithms Topics
+A graduate level course discussing advanced combinatorial algorithms.
+
+CS 130B Data Structure and Algorithm II
+An upper division course discussing classic algorithms.
+
+CS 40 Fundamental Computer Science
+A lower division course about discrete mathematics.
+
+
+More About Me
+I am a pianist and an amateur photographer.
+I am fluent in English and Mandarin.
