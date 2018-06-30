@@ -20,6 +20,7 @@
       \setlength{\leftmargin}{0.2in}}}{\end{list}}
 
 \usepackage{hyperref}
+\usepackage{hanging}
 
 \pagestyle{plain}
 \setcounter{page}{1}
@@ -32,82 +33,91 @@
 \begin{resume}
 \section{\sc Contact Information}
 \vspace{.05in}
-\begin{tabular}{@{}p{2in}p{4in}}
-955 Pine St. Apt. 33 & lijie.cs@gmail.com \\
-San Francisco, CA 94108 & (1)-805-886-3519 \\
+\begin{tabular}{@{}p{3in}p{4in}}
+Minato-ku Shiba 1-2-1-2909 & lijie.cs@gmail.com \\
+Tokyo, Japan 105-0014 & (+81)-90-9000-2765 \\
 \end{tabular}
 
 \section{\sc Core Competencies}
-Distributed RPC system design and implementation. System performance testing and tuning. \\
-Algorithm design and optimization. \\
-Working with open source projects. e.g., Finagle, HBase, Zookeeper. \\
-Programming Languages/Markup: Scala, Java, Python, C/C++, JavaScript, HTML, Bash.
+Web service architecture design and implementation.\\
+Scalability \& latency improvement.\\
+Algorithm design and optimization.\\
+Solving open-ended problems.\\
+Communication with collaborators and clients.
 
 \section{\sc Work Experiences}
+{\bf{Google Japan}}\\
+{\bf{\em Software Engineer}} \hfill {\bf Mar. 2015 - present}\\
+Worked as a full stack engineer on Google's \href{https://support.google.com/webmasters/answer/6211428?hl=en}{Web Light} service.
+
+{\bf{Google}}\\
+{\bf{\em Software Engineer}} \hfill {\bf Aug. 2013 - Mar. 2015}\\
+Worked on internal authrization tools and libraries.
+
 {\bf{Foursquare Labs, Inc.}}\\
-{\bf{\em Server Engineer}} \hfill {\bf Jun. 2012 - present}\\
-I have been working in the Data Services Team. Daily job includes designing and implementing highly available and scalable data-serving systems. Since joined Foursquare, I have been a main contributor in designing, implementing and maintaining the following services.
+{\bf{\em Data Infrastructure Engineer}} \hfill {\bf Jun. 2012 - Aug. 2013}\\
+Worked on data servers powering Foursquare's \href{https://foursquare.com/dev/overview/venues}{Venue Service}.
 
-1) An SSTable-type low-latency data service that has been widely used internally immidiately after its launch.
-
-2) A read-optimized data service that makes the back-end infrastructure much more available and scalable. While reducing the load on the existing (write) databases, the new service further improves the responsiveness of the read operations to the core data.
-
-I am also working on a side project of analyzing user-generated venue-related text using Map-Reduce.
-
-{\bf{Google}}, Tokyo, Japan\\
+{\bf{Google Japan}}\\
 {\bf{\em Software Engineer Intern}} \hfill {\bf Jul. 2011 - Sep. 2011}\\
-I worked in a research project aiming to facilitate people's daily commute in a metropolitan area. I significantly optimized the back-end algorithm and made major contributions in designing and implementating two front-end Android apps.
+Worked on a research project analyzing mobile users' commuting patterns in metropolitan areas.
 
 {\bf{University of California, Santa Barbara}}\\
-{\bf{\em Teaching Assistant}} \hfill {\bf Sep. 2009 - Feb. 2012}\\
-Led weekly discussing sessions for undergraduate students in various theoretical CS courses.
+{\bf{\em Teaching Assistant}} \hfill {\bf Sep. 2009 - Feb. 2012}
 
-\section{\sc Personal\\Project}
-{\bf{\em LifeTrack}} \hfill \url{https://github.com/renlijie/LifeTrack}\\
-An Android app that automatically generates a ``location diary'' of the user with intelligent power consumption and an intuitive map view.
-
-\section{\sc Education}
+\section{\sc Education\\\& Research}
 {\bf University of California, Santa Barbara}, CA, USA\\
 \vspace*{-.1in}
 \begin{list1}
 \item[] M.S., Computer Science, Jun. 2012
 \end{list1}
 
+\vspace*{-.1in}
+\hangpara{.3in}{0}
+{\bf{\em Parallel Computing: Shortest Paths in Time-Dependent Graphs}}\\
+Implementated parallel shortest-path algorithms on static and time-dependent graphs with comparable performance to Google's Pregel System.\\
+
+\vspace*{-.2in}
+\hangpara{.3in}{0}
+{\bf{\em Combinatorial Algorithms: Visibility-based Pursuit-Evasion Problem}}\\
+Proved a lower bound of the number of robots needed to capture an evader with the same speed in any polygonal environment, possibly with holes.\\
+
+\vspace*{-.2in}
+\hangpara{.3in}{0}
+{\bf{\em Graph Mining:\\\hspace*{.2in}Anomaly Detection in Graphs}}\\
+Improved the performance of the algorithm used in \href{https://drive.google.com/open?id=1TMkCJGdvBT6-96O487QWsjsFdTMqDxQT}{gIceberg} by 2X.\\
+{\bf{\em \hspace*{.2in}Frequent Sub-Graphs with Wild Cards}}\\
+Improved graph mining library \href{https://www.cs.ucsb.edu/~xyan/software/gSpan.htm}{gSpan} to mine frequent graph patterns that contains wildcard labels or subgraphs.
+
 {\bf Shanghai Jiao Tong University}, Shanghai, China\\
 \vspace*{-.1in}
 \begin{list1}
 \item[] B.E., Electrical Engineering, Jun. 2009
+\item[] \href{https://drive.google.com/open?id=16OkB9044sx22P3BQwLKHNrZMnmeHmUoZ}{Honor Class}
 \end{list1}
 
-\section{\sc Research Publications}
+\vspace*{-.1in}
+\hangpara{.3in}{0}
+{\bf{\em Quantum Information Processing}}\\
+Presented a mathematical framework for quantum teleportation on arbituary quantum graph states. Also proved the theoretical upper bound of the fidelity of any teleporation done on a graph state.
+
+\section{\sc Publications}
 \vspace{-.1cm}
 {\bf Graph Mining}\\
-Nan Li, Ziyu Guan, {\bf{Lijie Ren}}, Jian Wu, Jiawei Han, Xifeng Yan. ``gIceberg: towards iceberg analysis in large graphs", Proc. of the 2013 IEEE International Conference on Data Engineering (ICDE'13).\\\url{http://www.icde2013.org/papers.html}
+\href{https://drive.google.com/open?id=1TMkCJGdvBT6-96O487QWsjsFdTMqDxQT}{gIceberg: Towards Iceberg Analysis in Large Graphs}\\
+Nan Li, Ziyu Guan, {\bf{Lijie Ren}}, Jian Wu, Jiawei Han, Xifeng Yan. Proc. of the 2013 IEEE International Conference on Data Engineering (ICDE'13).\\
 
+\vspace*{-.1in}
 {\bf Quantum Computation}\\
-{\bf{Lijie Ren}}, Guangqiang He, Guihua Zeng. ``Universal Teleportation via Continuous-Variable Graph States", Physical Review A. (2008) 78, 042302.\\\url{http://pra.aps.org/abstract/PRA/v78/i4/e042302}
+\href{https://drive.google.com/open?id=16mw5QziHqvVJCKmDTiCaopSsf2f-zJYy}{Universal Teleportation via Continuous-Variable Graph States}\\
+{\bf{Lijie Ren}}, Guangqiang He, Guihua Zeng. ``", Physical Review A. (2008) 78, 042302.\\
 
-\section{\sc Research Projects}
 \vspace{-.1cm}
-{\bf{\em Time-Dependent Shortest Paths in Parallel}}  \hfill {\bf Jan. 2011 - Jun. 2012}\\
-I implementated a parallel shortest-path algorithm on static and time-varying graphs. Evaluations showed that we achieved comparable performance to Google's Pregel System (as reported in their paper).
-
-{\bf{\em Visibility-based Pursuit-Evasion Problem}}  \hfill {\bf Mar. 2011 - May. 2011}\\
-I proved a lower bound of the number of robots needed to capture an evader with the same speed in any polygonal environment, possibly with holes.
-
-{\bf{\em Business Analytics on Social Networks}}  \hfill {\bf Aug. 2010 - Feb. 2011}\\
-I optimized an algorithm used in the paper ``gIceberg'' (see publications) that clusters people on a social network who make certain purchases. The optimization boosted the performance by 100\%.
-
-{\bf{\em Graph Mining}}  \hfill {\bf Jan. 2010 - Mar. 2010}\\
-I improved the famous graph mining algorithm, gSpan, to efficiently mine frequent graph patterns that contains wildcard labels.
-
-{\bf{\em Quantum Information Processing}} \hfill {\bf Sep .2007 - Jun. 2009}\\
-I presented a mathematical framework for quantum teleportation on quantum graph states, which can be used for designing quantum entanglement states to transport quantum information, or for evaluating such capability of a given entanglement.
 
 \section{\sc More \\About Me}
-I am a pianist and an amateur photographer.\\
-I love travelling, especially in Japan.\\
-I am native in Mandarin, fluent in English, and currently learning Japanese.
+Speak English, Mandarin Chinese, and limited Japanese.\\
+Play piano since age 10.\\
+Got 7th place in National Physics Olympiad 2005 in Hebei, China (population $>$ 70 million).
 
 \end{resume}
 \end{document}
